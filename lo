@@ -1,0 +1,13 @@
+# https://twitter.com/pepe_planet
+# https://twitter.com/pepe_planet/status/1655832948799868929?s=20
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import sys,time,os
+
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import ElementNotVisibleException,ElementNotSelectableException,NoSuchElementException
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+import os
